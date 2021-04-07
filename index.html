@@ -1,0 +1,289 @@
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+
+<!DOCTYPE html>
+<html>
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+  	<img src="multimedia/Imperial_College_London_Logo_blue.png"  style="width:100" >
+    <a href="index.html#home" class="w3-bar-item w3-button"><span class="w3-padding w3-blue w3-opacity-min"><b>I-Hex</b></span> Island Health Explorer</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+    	<div class="w3-dropdown-hover">
+    		<button class="w3-bar-item w3-button">Support Tools</button>
+    		    <div class="w3-dropdown-content w3-bar-block w3-border">
+      <a href="index.html#clim" class="w3-bar-item w3-button">Atoll Climate Explorer</a>
+      <a href="index.html#geom" class="w3-bar-item w3-button">Atoll Geomorphology Explorer</a>
+      <a href="index.html#ocean" class="w3-bar-item w3-button">Atoll Ocean Explorer</a>
+      <a href="index.html#future" class="w3-bar-item w3-button">Atoll Future Scenarios Explorer</a>
+    </div>
+    </div>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="apps/FAQ.html" class="w3-bar-item w3-button">FAQ</a>
+  </div>
+</div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <video width = "1500" height = "800" autoplay muted>
+      <source id="vsrc" type="video/mp4" style="width:75%">
+      Please update your browser.
+    </video>
+      <script>
+    document.getElementById("vsrc").src = Math.floor((Math.random()*3)+1) + ".mp4";
+  </script>
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-blue w3-opacity-min"><b>I-Hex</b></span> <span class="w3-hide-small w3-text-black">Island Health Explorer</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>The project aims to create a “one-stop shop” that gathers and interprets island-specific data across tropical regions, providing a freely accessible tool to policymakers and to the population equally ensuring transparency of information between stakeholders. The project currently focuses on the central Indian ocean regions of the Maldives Archipelago, and to an extent the Chagos Archipelago but could, with support, be rolled out to any other islands with tailored specificity. The tools provided are based on the Google Earth Engine, exploits nearly 40 years of remote sensing products from a variety of satellite platforms, as well as the latest global climate model forecasts. </br>
+
+    <hr style="height:5px;border-width:0;color:white;background-color:white">
+
+    This project is in collaboration with Imperial College London, Maldives National University and the Banyan Tree Foundation.
+    </p>
+  </div>
+
+  <div class="w3-content w3-padding" style="max-width:1564px">
+
+
+  <!-- Contributors Section -->
+  <div class="w3-container w3-padding-32" id="contrib">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">The Team</h3>
+    <p>The project uses all open source tools, and the code is accessible on github. We welcome any contribution in terms of data, code in anyway possible. </br>
+    </p>
+    <h5> Current Contributors </h5>
+    <p>The project is brought to you by : </br>
+    </p>
+
+    <ul>
+  <li>ADVISORS
+    <ul>
+      <li><a href="https://www.imperial.ac.uk/people/y.plancherel">Dr.Yves Plancherel</a></li>
+      <li><a href="https://www.imperial.ac.uk/people/m.d.piggott">Prof. Matthew Piggott</a></li>
+      <li><a href="https://www.imperial.ac.uk/people/p.j.mason">Dr. Phillippa J Mason</a></li>
+    </ul>
+  </li>
+</ul>
+
+<hr style="height:0px;border-width:0;color:white;background-color:white">
+
+<ul>
+  <li>DEVOLOPERS
+    <ul>
+      <li> <a href="https://www.linkedin.com/in/shuaib-rasheed-b5a16444/">Shuaib Rasheed</a> [Lead App Devoloper] </li>
+      <li> <a href="https://www.linkedin.com/in/ellyessbenmoufok/">Ellyess Benmoufok</a> [App Devoloper] </li>
+      <li> <a href="https://www.linkedin.com/in/hayley-f-29b2b51b0/">Hayley Firth</a> [App Devoloper] </li>
+      <li> <a href="https://www.linkedin.com/in/ophélie-meuriot-668a4b156/">Ophélie Meuriot</a> [App Devoloper] </li>
+      <li> <a href="">Sequoia Trevorrow</a> [App Reviewver] </li>
+    </ul>
+  </li>
+</ul>
+    
+  </div>
+  
+    <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Support Tools</h3>
+    <p> Tools are grouped to different categories, and each tool each contain instructions of how to use. For ideas on how to use the tools we recommend visiting the FAQ page. 
+     </p>
+     <h4 class="w3-border-bottom w3-border-light-grey w3-padding-16" id="clim">Atoll Climate Explorer</h4>
+  
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-blue w3-padding"><a href="apps/clim_1.html" class="w3-hover-text-black">Atoll Daily Temperature Explorer</a></div>
+        <img src="multimedia/clim-1.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-blue w3-padding"><a href="apps/clim_2.html" class="w3-hover-text-black">Atoll Surface Pressure / MSLP Explorer</a></div>
+        <img src="multimedia/clim_2.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-blue w3-padding"><a href="apps/clim_3.html" class="w3-hover-text-black">Atoll Precipitation Explorer</a></div>
+        <img src="multimedia/clim-3.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-blue w3-padding"><a href="apps/clim_4.html" class="w3-hover-text-black">Atoll Wind Explorer</a></div>
+        <img src="multimedia/clim-4.png" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+
+    <h4 class="w3-border-bottom w3-border-light-grey w3-padding-16" id="geom">
+Atoll Geomorphology Explorer</h4>
+
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-red w3-padding"><a href="apps/geom_1.html" class="w3-hover-text-black">Island Area Explorer</a></div>
+        <img src="multimedia/geom_1.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-red w3-padding"><a href="apps/geom_2.html" class="w3-hover-text-black">Island Vegetation Explorer</a></div>
+        <img src="multimedia/geom_2.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-red w3-padding"><a href="apps/geom_3.html" class="w3-hover-text-black">Atoll Shoreline Explorer</a></div>
+        <img src="multimedia/geom_3.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-red w3-padding"><a href="apps/geom_4.html" class="w3-hover-text-black">Atoll Annual Shoreline Explorer</a></div>
+        <img src="multimedia/geom_4.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-red w3-padding"><a href="apps/geom_5.html" class="w3-hover-text-black">Atoll Clasified Features</a></div>
+        <img src="multimedia/geom_5.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-red w3-padding"><a href="apps/geom_6.html" class="w3-hover-text-black">Atoll Clasified Features (Expanded)</a></div>
+        <img src="multimedia/geom_6.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-red w3-padding"><a href="apps/geom_7.html" class="w3-hover-text-black">Atoll Bathymetry Explorer</a></div>
+        <img src="multimedia/geom_7.png" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+  <h4 class="w3-border-bottom w3-border-light-grey w3-padding-16" id="ocean">
+Atoll Ocean Explorer</h4>
+
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-cyan w3-padding"><a href="apps/ocean_1.html" class="w3-hover-text-black">Atoll SST Temperature Explorer</a></div>
+        <img src="multimedia/ocean_1.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-cyan w3-padding"><a href="apps/ocean_2.html" class="w3-hover-text-black">Atoll Interannual Chlorophyll a Concentration Explorer</a></div>
+        <img src="multimedia/ocean_2.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-cyan w3-padding"><a href="apps/ocean_3.html" class="w3-hover-text-black">Atoll Interannual Particulate Organic Carbon Explorer</a></div>
+        <img src="multimedia/ocean_3.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-cyan w3-padding"><a href="apps/ocean_4.html" class="w3-hover-text-black">Atoll Interannual Surface Sea Water Salinity Explorer</a></div>
+        <img src="multimedia/ocean_4.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-cyan w3-padding"><a href="apps/ocean_5.html" class="w3-hover-text-black">Atoll Interannual Surface Sea Water Temperature Explorer</a></div>
+        <img src="multimedia/ocean_5.png" alt="House" style="width:100%">
+      </div>
+    </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-cyan w3-padding"><a href="apps/ocean_6.html" class="w3-hover-text-black">Atoll Monthly Chlorophyll a Concentration Explorer (MODIS-Aqua)</a></div>
+        <img src="multimedia/ocean_6.png" alt="House" style="width:100%">
+      </div>
+    </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-cyan w3-padding"><a href="apps/ocean_7.html" class="w3-hover-text-black">Atoll Monthly Particulate Organic Carbon Explorer</a></div>
+        <img src="multimedia/ocean_7.png" alt="House" style="width:100%">
+      </div>
+    </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-cyan w3-padding"><a href="apps/ocean_8.html" class="w3-hover-text-black">Atoll Monthly Surface Sea Water Salinity Explorer</a></div>
+        <img src="multimedia/ocean_8.png" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+<h4 class="w3-border-bottom w3-border-light-grey w3-padding-16" id="future">
+Atoll Future Scenarios</h4>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-purple w3-padding"><a href="apps/future_1.html" class="w3-hover-text-black">Atoll Future Near Surface Air Temperature Explorer</a></div>
+        <img src="multimedia/future_1.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-purple w3-padding"><a href="apps/future_2.html" class="w3-hover-text-black">Atoll Future Precipitation Explorer</div>
+        <img src="multimedia/future_2.png" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+<h4 class="w3-border-bottom w3-border-light-grey w3-padding-16" id="exp">
+Experimental Features</h4>
+
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-purple w3-padding"><a href="apps/future_3.html" class="w3-hover-text-black">Detection of Plastic targets</div>
+        <img src="multimedia/future_3.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-purple w3-padding"><a href="apps/future_4.html" class="w3-hover-text-black">Global Fishing Watch Ship Tracks Explorer</div>
+        <img src="multimedia/future_4.png" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-blue w3-padding-15">
+  <p><a href="#home" title="ISLAND HEALTH INDEX PROJECT" target="_blank" class="w3-hover-text-black">ISLAND HEALTH EXPLORER PROJECT</a></p>
+  <a href="mailto:s.rasheed18@imperial.ac.uk">s.rasheed18@imperial.ac.uk</a></p>
+  <img src="multimedia/MNU.jpg" alt="Table" style="width:100px" class="w3-panel w3-padding-15">
+  <img src="multimedia/grantham.jpg" class="w3-panel w3-padding-15" alt="Table" style="width:150px">
+  <img src="multimedia/Imperial_College_London_Logo_blue.png"  class="w3-panel w3-padding-15" alt="Table" style="width:330" >
+  <img src="multimedia/Banyan-Tree.png"  class="w3-panel w3-padding-15" alt="Table" style="width:100">
+  <p>2021</p>
+</footer>
+
+</body>
+</html>
